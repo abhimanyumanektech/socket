@@ -1,6 +1,6 @@
 import { Server } from "socket.io";
 
-const io = new Server(9000, {
+const io = new Server("https://socket-mauve.vercel.app", {
   cors: {
     origin: "https://whatsapp-frontend-kohl.vercel.app",
   },
